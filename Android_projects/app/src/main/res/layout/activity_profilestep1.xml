@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/app_back"
+    tools:context=".profilestep_1">
+
+    <!-- Step Indicator -->
+    <TextView
+        android:id="@+id/tv_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step 1 of 3"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+     />
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:progress="33"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_bar"
+        android:layout_marginTop="4dp"
+        />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Details"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+       />
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Name"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+      />
+
+    <!-- Enrollment No. Field -->
+    <EditText
+        android:id="@+id/et_enrollment"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enrollment No."
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Email Id"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+     />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/idBtnPickDate"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/customdtepicker"
+            android:layout_marginTop="24dp"
+            android:text="Select date"
+            android:textAlignment="textStart"
+            android:buttonTint="@color/white"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+    <!-- Gender Field -->
+    <TextView
+        android:id="@+id/et_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:textStyle="bold"
+        android:textColorHint="#B0BEC5"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="16dp"
+       />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="16dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#FFFFFF"/>
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="#FFFFFF"/>
+
+        <RadioButton
+            android:id="@+id/rb_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textColor="#FFFFFF"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_cast"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="cast"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+    <EditText
+        android:id="@+id/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Blood Group"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btn_next1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Next"
+        android:backgroundTint="#3F6B3E"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="16dp"
+ />
+
+</LinearLayout>

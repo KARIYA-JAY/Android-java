@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/app_back"
+    tools:context=".profilestep_2">
+
+    <!-- Step Indicator -->
+    <TextView
+
+        android:id="@+id/tv_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step 2 of 3"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:progress="66"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_bar"
+        android:layout_marginTop="4dp"
+        />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privous Study details"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/mark_10"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="10th Marks - Percentage"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+
+    <!-- Enrollment No. Field -->
+    <EditText
+        android:id="@+id/pasingyear_10"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="10th Passing Year - month/year"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/mark_12"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="12th Marks - Percentage"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+
+    <EditText
+        android:id="@+id/pasingyear_12"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="12th Passing Year - month/year"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+    <EditText
+        android:id="@+id/d_cgpa"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Diploma - SPI/CGPA"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+    <EditText
+        android:id="@+id/pasingyear_d"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Diploma Passing Year - month/Year"
+        android:textColorHint="#B0BEC5"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        />
+    <!-- Next Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_prv1"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:text="Previous"
+        android:backgroundTint="#3F6B3E"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="16dp"
+        />
+        <Button
+            android:id="@+id/btn_next2"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:text="Next"
+            android:backgroundTint="#3F6B3E"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="16dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
