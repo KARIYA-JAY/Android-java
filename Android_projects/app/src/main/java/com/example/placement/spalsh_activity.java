@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class spalsh_activity extends AppCompatActivity {
 
 
-    private final int SPLASH_DISPLAY_LENGTH = 3000; // 3 seconds
+    private final int SPLASH_DISPLAY_LENGTH = 300; // 3 seconds
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

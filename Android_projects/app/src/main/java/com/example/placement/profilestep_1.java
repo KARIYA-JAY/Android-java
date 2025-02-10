@@ -2,11 +2,14 @@ package com.example.placement;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -31,7 +34,34 @@ public class profilestep_1 extends AppCompatActivity {
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+
+            // Retrieve the data in onCreate() of the same activity
+
+
+
             pickDateBtn = findViewById(R.id.idBtnPickDate);
+//            EditText et_name = findViewById(R.id.et_name);
+//            EditText et_enrollment = findViewById(R.id.et_enrollment);
+//            EditText et_email = findViewById(R.id.et_email);
+//            RadioGroup radioGroupGender = findViewById(R.id.radioGroupGender);
+//            EditText et_cast = findViewById(R.id.et_cast);
+//            EditText et_bg = findViewById(R.id.et_bg);
+
+
+//            SharedPreferences sharedPreferences1 = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+//            String savedText = sharedPreferences1.getString("editTextData", "");
+//            String en_no = sharedPreferences1.getString("enrollnumber_data", "");
+//            String mal = sharedPreferences1.getString("email", "");
+//            String cas = sharedPreferences1.getString("cast", "");
+//            String blood = sharedPreferences1.getString("bg", "");
+//
+//            et_name.setText(savedText);
+//            et_enrollment.setText(en_no);
+//            et_email.setText(mal);
+//            et_cast.setText(cas);
+//            et_bg.setText(blood);
+
+
 
             pickDateBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -66,17 +96,17 @@ public class profilestep_1 extends AppCompatActivity {
                     datePickerDialog.show();
                 }
             });
-            Button btn_next1 = findViewById(R.id.btn_next1);
-            btn_next1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-                    Intent step2 = new Intent(profilestep_1.this,profilestep_2.class);
-                    profilestep_1.this.startActivity(step2);
-                    profilestep_1.this.finish();
-
-                }
-            });
+//            Button btn_next1 = findViewById(R.id.btn_next1);
+//            btn_next1.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//
+//                    Intent step2 = new Intent(profilestep_1.this,profilestep_2.class);
+//                    profilestep_1.this.startActivity(step2);
+//                    profilestep_1.this.finish();
+//
+//                }
+//            });
             Button upload_img = findViewById(R.id.upload_image);
             upload_img.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -85,6 +115,17 @@ public class profilestep_1 extends AppCompatActivity {
                     startActivityForResult(intent, 100);
                 }
             });
+
+
+//            SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+//            SharedPreferences.Editor editor = sharedPreferences.edit();
+//            editor.putString("editTextData", et_name.getText().toString());
+//            editor.putString("enrollnumber_data", et_enrollment.getText().toString());
+//            editor.putString("email", et_email.getText().toString());
+//            editor.putString("cast", et_cast.getText().toString());
+//            editor.putString("bg", et_bg.getText().toString());
+//            editor.putString("radio_group", radioGroupGender.getContext().toString());
+//            editor.apply();
 
 
             return insets;
