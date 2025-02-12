@@ -48,6 +48,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
       />
 
     <!-- Enrollment No. Field -->
@@ -56,12 +57,14 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="Enrollment No."
+        android:inputType="number"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
 
     <!-- Email Field -->
@@ -76,6 +79,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
      />
     <LinearLayout
         android:layout_width="match_parent"
@@ -154,6 +158,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/et_bg"
@@ -166,6 +171,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
     <Button
         android:id="@+id/upload_image"
@@ -207,6 +213,7 @@
 
     <!-- Name Field -->
     <EditText
+        android:inputType="numberDecimal"
         android:id="@+id/mark_10"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -217,24 +224,30 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
 
     <!-- Enrollment No. Field -->
     <EditText
+        android:inputType="numberDecimal"
+
         android:id="@+id/pasingyear_10"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="10th Passing Year - month/year"
+        android:hint="10th Passing Year "
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
 
     <!-- Email Field -->
     <EditText
+        android:inputType="numberDecimal"
+
         android:id="@+id/mark_12"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -245,21 +258,27 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
 
     <EditText
+        android:inputType="numberDecimal"
+
         android:id="@+id/pasingyear_12"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="12th Passing Year - month/year"
+        android:hint="12th Passing Year "
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
     <EditText
+        android:inputType="numberDecimal"
+
         android:id="@+id/d_cgpa"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -270,18 +289,22 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
     <EditText
+        android:inputType="numberDecimal"
+
         android:id="@+id/pasingyear_d"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Diploma Passing Year - month/Year"
+        android:hint="Diploma Passing Year "
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
     <!-- Next Button -->
 <!--    <LinearLayout-->
@@ -324,6 +347,7 @@
         android:textStyle="bold"
         android:layout_marginTop="24dp"
         android:layout_marginStart="16dp"
+
         />
 
     <!-- Name Field -->
@@ -338,21 +362,10 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
 
-    <!-- Enrollment No. Field -->
-    <EditText
-        android:id="@+id/c_baclog"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="10th Passing Year - month/year"
-        android:textColorHint="#B0BEC5"
-        android:background="@drawable/edittext_bg"
-        android:padding="10dp"
-        android:textColor="#FFFFFF"
-        android:layout_marginTop="12dp"
-        android:layout_marginHorizontal="16dp"
-        />
+
 
     <!-- Email Field -->
     <EditText
@@ -366,6 +379,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
 
     <EditText
@@ -379,6 +393,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/clr_back"
@@ -391,6 +406,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
 
     <EditText
@@ -404,6 +420,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
+        android:singleLine="true"
         />
         <Button
             android:id="@+id/final_submit"
