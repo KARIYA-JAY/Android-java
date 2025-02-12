@@ -37,11 +37,21 @@
        />
 
     <!-- Name Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Name"
+        android:hint="xyz"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -52,11 +62,21 @@
       />
 
     <!-- Enrollment No. Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrollment No : "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:id="@+id/et_enrollment"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Enrollment No."
+        android:hint="22012365012"
         android:inputType="number"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
@@ -68,11 +88,21 @@
         />
 
     <!-- Email Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:id="@+id/et_email"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Email Id"
+        android:hint="123@gmail.com"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -147,11 +177,21 @@
 
     </RadioGroup>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cast :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:id="@+id/et_cast"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="cast"
+        android:hint="hindu"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -160,11 +200,22 @@
         android:layout_marginHorizontal="16dp"
         android:singleLine="true"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:id="@+id/et_bg"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Blood Group"
+        android:hint="A-"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -212,12 +263,22 @@
         />
 
     <!-- Name Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10th Marks - Percentage :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:inputType="numberDecimal"
         android:id="@+id/mark_10"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="10th Marks - Percentage"
+        android:hint=""
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -228,13 +289,22 @@
         />
 
     <!-- Enrollment No. Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10th Passing Year :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:inputType="numberDecimal"
 
         android:id="@+id/pasingyear_10"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="10th Passing Year "
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -245,13 +315,22 @@
         />
 
     <!-- Email Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12th Marks - Percentage :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:inputType="numberDecimal"
 
         android:id="@+id/mark_12"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="12th Marks - Percentage"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -261,13 +340,22 @@
         android:singleLine="true"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12th Passing Year : "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:inputType="numberDecimal"
 
         android:id="@+id/pasingyear_12"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="12th Passing Year "
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -275,6 +363,16 @@
         android:layout_marginTop="12dp"
         android:layout_marginHorizontal="16dp"
         android:singleLine="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diploma - SPI/CGPA :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
         />
     <EditText
         android:inputType="numberDecimal"
@@ -282,7 +380,6 @@
         android:id="@+id/d_cgpa"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Diploma - SPI/CGPA"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -291,13 +388,22 @@
         android:layout_marginHorizontal="16dp"
         android:singleLine="true"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iploma Passing Year :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:inputType="numberDecimal"
 
         android:id="@+id/pasingyear_d"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Diploma Passing Year "
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -351,11 +457,21 @@
         />
 
     <!-- Name Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Semester SPI"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
+
     <EditText
         android:id="@+id/c_sem"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Current Semester"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -368,11 +484,20 @@
 
 
     <!-- Email Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currnt back :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:id="@+id/curr_back"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="currnt back"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -382,11 +507,20 @@
         android:singleLine="true"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total back :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        />
     <EditText
         android:id="@+id/tot_back"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="total back"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
@@ -395,25 +529,21 @@
         android:layout_marginHorizontal="16dp"
         android:singleLine="true"
         />
-    <EditText
-        android:id="@+id/clr_back"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="cleared back"
-        android:textColorHint="#B0BEC5"
-        android:background="@drawable/edittext_bg"
-        android:padding="10dp"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPI :"
         android:textColor="#FFFFFF"
-        android:layout_marginTop="12dp"
-        android:layout_marginHorizontal="16dp"
-        android:singleLine="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
         />
 
     <EditText
         android:id="@+id/all_cpi"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="CPI"
         android:textColorHint="#B0BEC5"
         android:background="@drawable/edittext_bg"
         android:padding="10dp"
