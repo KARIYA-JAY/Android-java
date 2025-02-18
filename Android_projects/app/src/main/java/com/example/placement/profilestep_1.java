@@ -18,8 +18,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Calendar;
 
@@ -92,9 +90,6 @@ public class profilestep_1 extends AppCompatActivity {
                     startActivityForResult(intent, 100);
                 }
             });
-
-
-
 
             return insets;
         });
